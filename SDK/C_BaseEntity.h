@@ -971,31 +971,31 @@ public:
        CCSWeaponInfo* GetCSWpnData()
     {
         typedef CCSWeaponInfo* (* oGetCSWpnData)(void*);
-        return getvfunc<oGetCSWpnData>(this, 525)(this);
+        return getvfunc<oGetCSWpnData>(this, 528)(this);
     }
     
     CCSSWeaponInfo* GetCSWpnData1()
     {
         typedef CCSSWeaponInfo* (* oGetCSWpnData)(void*);
-        return getvfunc<oGetCSWpnData>(this, 525)(this);
+        return getvfunc<oGetCSWpnData>(this, 528)(this);
     }
     
     float GetInaccuracy()
     {
         typedef float (* oGetInaccuracy)(void*);
-        return getvfunc<oGetInaccuracy>(this, 547)(this);
+        return getvfunc<oGetInaccuracy>(this, 550)(this);
     }
     
     float GetSpread()
     {
         typedef float (* oGetSpread)(void*);
-        return getvfunc<oGetSpread>(this, 517)(this);
+        return getvfunc<oGetSpread>(this, 520)(this);
     }
     
     void UpdateAccuracyPenalty()
     {
         typedef void (* oUpdateAccuracyPenalty)(void*);
-        return getvfunc<oUpdateAccuracyPenalty>(this, 548)(this);
+        return getvfunc<oUpdateAccuracyPenalty>(this, 551)(this);
     }
 
     
